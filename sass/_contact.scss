@@ -1,0 +1,57 @@
+.primary-footer, .secondary-footer{
+	font-size: 1.0em;
+	font-family: serif;
+}
+input, textarea{
+	border-bottom: none;
+ border-left: none;
+ width: 100%;
+  box-sizing: border-box;
+}
+.contact{
+	clear: both;
+}
+
+
+input[type="text"],input[type="email"]{
+ padding: .5em;
+}
+
+
+input[type="submit"],
+input[type="button"] {
+	width: auto;
+}
+
+
+.btn{
+	font-size: 1.2em;
+	height: 1.7em;
+
+}
+.btn-submit{
+	background-color:#224455;
+	border: none;
+	color: #fff;
+	margin-top: .5em;
+}
+
+/*.info{
+    margin-top: 1.7em;
+}
+*/
+
+
+@media(min-width: 800px){
+	.contact-form,.info{
+		display: inline-block;
+		width: 50%;
+		box-sizing: border-box;
+		vertical-align: top;
+		padding: 0 1em;
+	}
+	input[type="text"],input[type="email"]{
+    padding: 1.5em;
+}
+
+}

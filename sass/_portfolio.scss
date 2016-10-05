@@ -1,0 +1,45 @@
+.portfolio{
+	clear: both;
+
+
+}
+
+.profile-header {
+	text-align: center;
+	font-style: italic;
+	font-size: 1.2em;
+	 font-family: tahoma;
+
+}
+.listings{
+
+	margin: 0;
+	padding: 0;
+   li{
+   list-style-type: none;
+
+
+   }
+   &:last-child{
+   	margin-bottom: 0;
+   }
+}
+.card__figure{
+	
+}
+.portfolio-img{
+	max-width: 100%;
+	margin-top: 1.5em;
+}
+
+@media(min-width: 800px){
+	.listings{
+		li{
+			display: inline-block;
+			vertical-align: top;
+			width: 50%;
+			padding: 0 1.5em;
+			box-sizing: border-box;
+		}
+	}
+}

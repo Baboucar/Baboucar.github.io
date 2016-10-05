@@ -1,0 +1,38 @@
+
+.about-image{
+  margin-right: .5em;
+}
+
+.img{
+	border-radius: 100%;
+	width: 250px;
+	height: 250px;
+	margin-top: 3.7em;
+
+
+}
+
+.about-image,.introduction-profile{
+	text-align: center;
+}
+
+.text{
+	text-align: center;
+	padding-right:1.5em;
+   
+}
+
+@media(min-width: 768px){
+	.about-image{
+		float: left;
+		padding: 2.5em;
+	}
+	.introduction-profile{
+
+		float: right;
+		width: 50%;
+		padding-top: 1.5em;
+		
+	}
+
+}
